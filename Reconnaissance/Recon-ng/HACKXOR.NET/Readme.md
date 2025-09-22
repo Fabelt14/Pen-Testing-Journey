@@ -1,4 +1,4 @@
-# 🔎 Recon-ng Lab — Host & File Enumeration on **hackxor.net**
+# 🔎 Recon-ng Lab: Host & File Enumeration on **hackxor.net**
 
 ## 📌 Introduction
 
