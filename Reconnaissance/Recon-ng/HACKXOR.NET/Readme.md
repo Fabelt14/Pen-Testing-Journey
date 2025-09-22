@@ -1,6 +1,6 @@
 # 🔎 Recon-ng Lab: Host & File Enumeration on **hackxor.net**
 
-![image for hackxor.net](https://github.com/Fabelt14/Pen-Testing-Journey/blob/5dbd8ce18b997b3b648fc23081404c775cbd6132/Reconnaissance/Images/data%20page.jpg)
+![image for hackxor.net](https://github.com/Fabelt14/Pen-Testing-Journey/blob/fec453eba67cb12511b03fd7ffed87349dcf2327/Reconnaissance/Images/result%20on%20web.jpg)
 
 ## 📌 Introduction
 
