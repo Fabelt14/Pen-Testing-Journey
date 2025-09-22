@@ -1,5 +1,7 @@
 # 🔎 Recon-ng Lab: Host & File Enumeration on **hackxor.net**
 
+![image for hackxor.net](https://github.com/Fabelt14/Pen-Testing-Journey/blob/5dbd8ce18b997b3b648fc23081404c775cbd6132/Reconnaissance/Images/data%20page.jpg)
+
 ## 📌 Introduction
 
 In this lab I used **Recon-ng** (CLI) and its marketplace modules to do passive OSINT on **hackxor.net**.
@@ -50,7 +52,10 @@ ls                                # view saved files (CSV, downloaded files)
 cat http_hackxor.net_robots.txt   # view downloaded robots.txt content
 
 ```
+
 ## 📊 Results
+
+![result for hackxor.net](https://github.com/Fabelt14/Pen-Testing-Journey/blob/6f273c6ba71bbb11c83167c41c6d98abd17e084c/Reconnaissance/Images/hackxor%20result%201.jpg)
 
 ### Hosts discovered (from `hackertarget` + `bing_domain_web`)
 
@@ -63,11 +68,11 @@ cat http_hackxor.net_robots.txt   # view downloaded robots.txt content
 
 **Total hosts found:** **7**
 
-(You may see `research1.hackxor.net` listed twice in the raw output — recon-ng stores rows per module run.)
-
 ---
 
 ### Interesting files (from `discovery/info_disclosure/interesting_files`)
+---
+![image for hackxor.net](https://github.com/Fabelt14/Pen-Testing-Journey/blob/6f273c6ba71bbb11c83167c41c6d98abd17e084c/Reconnaissance/Images/discovery%20files.jpg)
 
 * Found: `http://hackxor.net/robots.txt` → **200 OK**
 * Downloaded file saved to workspace:
@@ -84,9 +89,15 @@ Disallow: /pleasebanme
 
 Other paths checked returned 404 (e.g., `sitemap.xml`, `phpinfo.php`, `admin-console/`).
 
+* [Robots File](https://github.com/Fabelt14/Pen-Testing-Journey/blob/6f273c6ba71bbb11c83167c41c6d98abd17e084c/Reconnaissance/Files/http_hackxor.net_robots.txt)
+
+* [Configuration File](https://github.com/Fabelt14/Pen-Testing-Journey/blob/6f273c6ba71bbb11c83167c41c6d98abd17e084c/Reconnaissance/Files/config.dat)
+
 ---
 
 ### Dashboard summary (quick)
+
+![image for hackxor.net](https://github.com/Fabelt14/Pen-Testing-Journey/blob/6f273c6ba71bbb11c83167c41c6d98abd17e084c/Reconnaissance/Images/hackxor%20show%20host.jpg)
 
 * Modules run: `hackertarget` (2 runs), `bing_domain_web` (1 run), `interesting_files` (1 run)
 * Data gathered: Hosts = 7, Interesting Files = 1
