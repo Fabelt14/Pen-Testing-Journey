@@ -1,5 +1,7 @@
 # Lab Report – DNS Lookups on Cisco.com
 
+![image for dnsrecon](https://github.com/Fabelt14/Pen-Testing-Journey/blob/main/Reconnaissance/Images/dnsrecon%201.jpg)
+
 ## 🔹 Introduction
 This lab focused on performing **DNS reconnaissance** to gather information about domain names, their associated IP addresses, mail servers, and registration details.  
 DNS lookups are an essential step in **footprinting and enumeration** during ethical hacking. By analyzing DNS records, attackers or defenders can understand the infrastructure of a target domain and identify potential attack vectors.
@@ -38,6 +40,9 @@ DNS lookups are an essential step in **footprinting and enumeration** during eth
 ---
 
 ## 🔹 Results
+
+![image for nslookup](https://github.com/Fabelt14/Pen-Testing-Journey/blob/main/Reconnaissance/Images/nslookup.jpg)
+
 ### `h4cker.org`
 - **A Records**:  
   - 185.199.108.153  
