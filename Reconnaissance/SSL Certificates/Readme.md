@@ -6,7 +6,7 @@ This lab focused on collecting public SSL/TLS certificate information for **neta
 I recorded certificate details, supported TLS versions and cipher suites, certificate validity dates, and performed a basic Heartbleed check.  
 All activity was **passive** and did not involve any intrusion or exploitation.
 
-![image for crt.sh](https://github.com/Fabelt14/Pen-Testing-Journey/blob/main/Reconnaissance/Images/crt.shII.jpg)
+![Quick Demo GIF](https://github.com/Fabelt14/Pen-Testing-Journey/blob/main/Reconnaissance/Images/sslscan%20on%20netacad.gif)
 
 ---
 
@@ -41,6 +41,8 @@ sslscan netacad.com | aha > sfa_cert.html
 3. Queried Certificate Transparency logs on `crt.sh` for historical certificate issuances and saved screenshots of relevant entries.
 4. Ran `sslscan netacad.com` to collect supported protocols, cipher suites, server key groups, certificate signature and key strength, validity dates, and Heartbleed checks. Exported raw text and a colorized HTML with `aha`.
 5. Compiled findings and practical remediation recommendations.
+
+![image for crt.sh](https://github.com/Fabelt14/Pen-Testing-Journey/blob/main/Reconnaissance/Images/crt.shII.jpg)
 
 ![image for crt.sh](https://github.com/Fabelt14/Pen-Testing-Journey/blob/main/Reconnaissance/Images/crt.sh.jpg)
 
